@@ -1,0 +1,29 @@
+# PlatformIO
+.pio/
+.platformio/
+
+# IDEs
+.vscode/
+.idea/
+
+# Build artifacts
+*.o
+*.a
+build/
+
+# Development
+CLAUDE.md
+.claude/
+OTA_TEST_GUIDE.md
+CAD/
+
+# Temporary files
+*.tmp
+*.bak
+
+*.secrets
+
+# Secrets - never commit actual credentials
+src/Secrets.cpp
+src/Secrets.h
+src/Secrets.*.template
