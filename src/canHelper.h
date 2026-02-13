@@ -3,7 +3,6 @@
 #include "driver/twai.h"
 #include "lightSequences.h"
 #include <OtaUpdate.h>
-#include "Secrets.h"
 #include "wifiConfig.h"
 
 // Forward declare otaUpdate (defined in main.cpp)

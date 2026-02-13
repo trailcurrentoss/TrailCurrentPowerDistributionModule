@@ -2,7 +2,6 @@
 #include "globals.h"
 #include "canHelper.h"
 #include <OtaUpdate.h>
-#include "Secrets.h"
 #include "lightSequences.h"
 #include "wifiConfig.h"
 
@@ -25,13 +24,11 @@ void setup()
   wifiConfig::init();
   wifiConfig::setRuntimeCredentialPtrs(runtimeSsid, runtimePassword);
 
-  // Try to load credentials from NVS, otherwise use hardcoded
+  // Load credentials from NVS (provisioned via CAN bus message 0x01)
   if (wifiConfig::loadCredentials(runtimeSsid, runtimePassword)) {
     debugln("[WiFi] Loaded credentials from NVS");
   } else {
-    debugln("[WiFi] Using hardcoded credentials from Secrets.h");
-    strncpy(runtimeSsid, ssid, 32);
-    strncpy(runtimePassword, password, 63);
+    debugln("[WiFi] No credentials in NVS - OTA disabled until provisioned via CAN");
   }
 
   // Initialize output pins
