@@ -1,7 +1,7 @@
 #pragma once
 #include <Preferences.h>
 #include <Arduino.h>
-#include "debug.h"
+#include <debug.h>
 
 #define WIFI_CONFIG_NAMESPACE "wifi_config"
 #define WIFI_SSID_KEY "ssid"

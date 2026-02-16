@@ -1,6 +1,6 @@
 #pragma once
 #include <Arduino.h>
-#include "debug.h"
+#include <debug.h>
 
 // ============================================================================
 // Output Pin Definitions

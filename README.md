@@ -102,8 +102,20 @@ This firmware depends on the following public libraries:
 
 - **[OtaUpdateLibraryWROOM32](https://github.com/trailcurrentoss/OtaUpdateLibraryWROOM32)** (v0.0.1) - Over-the-air firmware update functionality
 - **[TwaiTaskBasedLibraryWROOM32](https://github.com/trailcurrentoss/TwaiTaskBasedLibraryWROOM32)** (v0.0.1) - CAN bus communication interface
+- **[ESP32ArduinoDebugLibrary](https://github.com/trailcurrentoss/ESP32ArduinoDebugLibrary)** (v2.0.0) - Debug macro system with compile-time removal
 
 All dependencies are automatically resolved by PlatformIO during the build process.
+
+### Serial Debugging
+
+Debug output is controlled by the `DEBUG` build flag in `platformio.ini`:
+
+```ini
+build_flags = -DDEBUG=1   ; Enable debug output (default)
+; build_flags = -DDEBUG=0  ; Disable — all debug calls compile away to zero overhead
+```
+
+When enabled, debug macros (`debugln()`, `debugf()`, `debug_tag()`, etc.) output to Serial at 115200 baud. When disabled (`DEBUG=0`), all debug code is completely removed at compile time with no performance or flash size impact.
 
 **WiFi Credentials:**
 - WiFi credentials are provisioned dynamically via CAN bus (Message ID 0x01)
@@ -148,11 +160,10 @@ All dependencies are automatically resolved by PlatformIO during the build proce
 │   └── trailer-power-control-system.kicad_pcb  # PCB layout
 ├── src/                          # Firmware source
 │   ├── main.cpp                  # Main application
-│   ├── globals.h                 # Pin definitions and debug macros
-│   ├── canHelper.h               # CAN message handling (408 lines)
+│   ├── globals.h                 # Pin definitions
+│   ├── canHelper.h               # CAN message handling
 │   ├── lightSequences.h          # Startup and animated light sequences
-│   ├── wifiConfig.h              # NVS WiFi credential storage
-│   └── debug.h                   # Debug macros
+│   └── wifiConfig.h              # NVS WiFi credential storage
 ├── data/
 │   └── partitions.csv            # ESP32 flash partition layout
 └── platformio.ini                # Build configuration

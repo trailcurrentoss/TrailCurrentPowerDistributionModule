@@ -1,4 +1,4 @@
-#include "debug.h"
+#include <debug.h>
 #include "globals.h"
 #include "canHelper.h"
 #include <OtaUpdate.h>
@@ -15,7 +15,15 @@ OtaUpdate otaUpdate(180000, runtimeSsid, runtimePassword);
 void setup()
 {
   Serial.begin(115200);
-  delay(1000);  // Give serial time to initialize
+
+#if DEBUG == 1
+  // Wait for serial monitor connection (up to 3 seconds)
+  // Ensures startup messages are visible when monitor connects after boot
+  unsigned long serialWait = millis();
+  while (!Serial.available() && (millis() - serialWait < 3000)) {
+    delay(10);
+  }
+#endif
 
   debugln("\n=== TrailCurrent Power Control Module ===");
   debugln("CAN-Controlled 8-Channel PWM Lighting");
