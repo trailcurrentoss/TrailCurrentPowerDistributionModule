@@ -49,10 +49,10 @@ void setup()
   pinMode(OUTPUT07_PIN, OUTPUT);
   pinMode(OUTPUT08_PIN, OUTPUT);
 
-  // Run the startup light show
-  debugln("[LIGHTS] Starting 30-second light show...");
-  //lightSequences::startupLightShow();
-  debugln("[LIGHTS] Light show complete!");
+  // Run the Jingle Bells light sequence once at startup
+  debugln("[LIGHTS] Starting Jingle Bells sequence...");
+  lightSequences::jingleBells();
+  debugln("[LIGHTS] Jingle Bells sequence complete!");
 
   // Initialize OTA (connects to WiFi)
   debugf("[OTA] Device hostname: %s\n", otaUpdate.getHostName().c_str());
