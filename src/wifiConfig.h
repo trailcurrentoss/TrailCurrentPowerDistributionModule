@@ -135,7 +135,7 @@ namespace wifiConfig {
         }
 
         uint8_t chunkIndex = data[1];
-        uint8_t offset = chunkIndex * 7;
+        uint8_t offset = chunkIndex * 6;
 
         // Validate chunk index
         if (chunkIndex >= state.ssidChunks) {
@@ -146,8 +146,8 @@ namespace wifiConfig {
 
         debugf("[WiFi Config] SSID chunk %d/%d\n", chunkIndex + 1, state.ssidChunks);
 
-        // Copy up to 7 bytes
-        for (int i = 0; i < 7 && (offset + i) < state.ssidLen; i++) {
+        // Copy up to 6 bytes (8-byte CAN frame minus 2-byte header)
+        for (int i = 0; i < 6 && (offset + i) < state.ssidLen; i++) {
             state.ssidBuffer[offset + i] = data[2 + i];
         }
 
@@ -165,7 +165,7 @@ namespace wifiConfig {
         }
 
         uint8_t chunkIndex = data[1];
-        uint8_t offset = chunkIndex * 7;
+        uint8_t offset = chunkIndex * 6;
 
         // Validate chunk index
         if (chunkIndex >= state.passwordChunks) {
@@ -176,8 +176,8 @@ namespace wifiConfig {
 
         debugf("[WiFi Config] Password chunk %d/%d\n", chunkIndex + 1, state.passwordChunks);
 
-        // Copy up to 7 bytes
-        for (int i = 0; i < 7 && (offset + i) < state.passwordLen; i++) {
+        // Copy up to 6 bytes (8-byte CAN frame minus 2-byte header)
+        for (int i = 0; i < 6 && (offset + i) < state.passwordLen; i++) {
             state.passwordBuffer[offset + i] = data[2 + i];
         }
 
