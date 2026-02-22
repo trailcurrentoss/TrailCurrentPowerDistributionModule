@@ -15,7 +15,6 @@ build/
 CLAUDE.md
 .claude/
 OTA_TEST_GUIDE.md
-CAD/
 
 # Temporary files
 *.tmp
