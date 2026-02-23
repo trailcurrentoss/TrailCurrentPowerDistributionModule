@@ -21,3 +21,4 @@ OTA_TEST_GUIDE.md
 *.bak
 
 *.secrets
+*.FCBak
