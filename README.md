@@ -1,6 +1,6 @@
 # TrailCurrent Power Distribution Module
 
-CAN-controlled 8-channel PWM power distribution module for vehicle lighting and accessory control with OTA firmware update capability.
+CAN-controlled 8-channel PWM power distribution module for vehicle lighting and accessory control with OTA firmware update capability. Part of the [TrailCurrent](https://trailcurrent.com) open-source vehicle platform.
 
 ## Hardware Overview
 
