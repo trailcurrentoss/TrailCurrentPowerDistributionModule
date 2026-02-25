@@ -333,7 +333,7 @@
 			(uuid "d913c4d2-45af-47f6-afc6-1e60c413398f")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/Automotive_Fuse.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/modules/Automotive_Fuse.step"
 			(offset
 				(xyz 7.75 4.1 0)
 			)
@@ -682,7 +682,7 @@
 			(uuid "da221793-b90d-4a6f-8a50-ee29d0e0f5db")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/Automotive_Fuse.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/modules/Automotive_Fuse.step"
 			(offset
 				(xyz 7.75 4.1 0)
 			)
@@ -1409,7 +1409,7 @@
 			(uuid "31a4521f-77cd-4cb6-a7ce-0b5a37a40e99")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/IRF4905STRLPBF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/ics/IRF4905STRLPBF.stp"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -2378,7 +2378,7 @@
 			(uuid "18fa9038-a12e-4d32-81d7-afe2d06f790e")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/IRF4905STRLPBF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/ics/IRF4905STRLPBF.stp"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -3529,7 +3529,7 @@
 			(uuid "072f6d43-880f-45e3-9bb9-fdcf39073297")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/4PinScrewTerminalV2.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/connectors/4PinScrewTerminalV2.step"
 			(offset
 				(xyz 17 0.5 0.5)
 			)
@@ -3853,7 +3853,7 @@
 			(uuid "1d5e80fa-1340-4059-b09f-5a4e6eda9171")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/IRF4905STRLPBF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/ics/IRF4905STRLPBF.stp"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -4177,7 +4177,7 @@
 			(uuid "3ba5fb53-57b1-4f95-93c1-f8f33c2069e3")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/IRF4905STRLPBF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/ics/IRF4905STRLPBF.stp"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -4726,7 +4726,7 @@
 			(uuid "81422ae9-4257-47ae-a6f1-915ce1f9dc0e")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/Automotive_Fuse.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/modules/Automotive_Fuse.step"
 			(offset
 				(xyz 7.75 4.1 0)
 			)
@@ -5696,7 +5696,7 @@
 			(uuid "73bd1ede-16b4-4625-9fe2-9dd4508cf38e")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/IRF4905STRLPBF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/ics/IRF4905STRLPBF.stp"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -6488,7 +6488,7 @@
 			(uuid "779dfd6d-e2ec-4b86-b8fa-d2cdbae4fa8a")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/Automotive_Fuse.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/modules/Automotive_Fuse.step"
 			(offset
 				(xyz 7.75 4.1 0)
 			)
@@ -6812,7 +6812,7 @@
 			(uuid "4a654a5b-6365-40ac-9830-996c51fe61ad")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/IRF4905STRLPBF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/ics/IRF4905STRLPBF.stp"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -7403,7 +7403,7 @@
 			(uuid "6ae72623-d826-4299-921f-d273ddf312ea")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/Automotive_Fuse.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/modules/Automotive_Fuse.step"
 			(offset
 				(xyz 7.75 4.1 0)
 			)
@@ -7727,7 +7727,7 @@
 			(uuid "3724f7ee-8a20-4dd2-87eb-fa9d591fc40a")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/IRF4905STRLPBF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/ics/IRF4905STRLPBF.stp"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -8070,7 +8070,7 @@
 			(uuid "49d90a80-2046-41d2-b0a9-e51467df1591")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/AP63203WU-7.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/power/AP63203WU-7.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8619,7 +8619,7 @@
 			(uuid "0b7b9b8c-88c8-4c64-adcb-5b26a33a08cb")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/Automotive_Fuse.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/modules/Automotive_Fuse.step"
 			(offset
 				(xyz 7.75 4.1 0)
 			)
@@ -9144,7 +9144,7 @@
 			(uuid "0d70e301-c0b3-4337-b411-12360afd81d1")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/IRF4905STRLPBF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/ics/IRF4905STRLPBF.stp"
 			(offset
 				(xyz 0 0 2.5)
 			)
@@ -12184,7 +12184,7 @@
 			(uuid "6b8dad59-df25-4411-a840-d55bdd525fdc")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/Automotive_Fuse.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/modules/Automotive_Fuse.step"
 			(offset
 				(xyz 7.75 4.1 0)
 			)
@@ -12521,7 +12521,7 @@
 			(uuid "7b3efc7f-3ef4-4445-aac8-4edaed1e18e1")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/4PinScrewTerminalV2.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/connectors/4PinScrewTerminalV2.step"
 			(offset
 				(xyz 17 0.5 0.5)
 			)
@@ -12668,7 +12668,7 @@
 			(uuid "ca6f79c5-d6d4-4354-ab4e-a054fb42d352")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/Automotive_Fuse.step"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/modules/Automotive_Fuse.step"
 			(offset
 				(xyz 7.75 4.1 0)
 			)
@@ -12869,7 +12869,7 @@
 			(uuid "783fbf6d-d437-4dfa-85b5-d331101270c9")
 		)
 		(embedded_fonts no)
-		(model "/Users/davefloyd/KiCAD/CustomLibraries/3DModels/NLV32T-3R9J-EF.stp"
+		(model "${TRAILCURRENT_3DMODEL_DIR}/passives/NLV32T-3R9J-EF.stp"
 			(offset
 				(xyz 0 0 0)
 			)
